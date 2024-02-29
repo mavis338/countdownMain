@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+}
+.con1{
+    width: 45%;
+}
+.con1 img{
+    width: 400px;
+}
+.con2{
+    width: 50%;
+}
+.con2 h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 213, 0);
+}
+
+.countdown{
+    font-size: 34px;
+    color: lightsalmon;
+}
