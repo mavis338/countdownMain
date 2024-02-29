@@ -23,3 +23,26 @@ body{
     font-size: 34px;
     color: lightsalmon;
 }
+/* For mobile phones */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 0 20px; /* Adjust padding for mobile */
+        display: block;
+    }
+
+    .con1, .con2 {
+        width: 100%; /* Make containers full width for mobile */
+    }
+
+    .con1 img {
+        width: 100%; /* Make images full width for mobile */
+    }
+
+    .con2 h2 {
+        font-size: 24px; /* Decrease font size for mobile */
+    }
+
+    .countdown {
+        font-size: 28px; /* Adjust font size for countdown on mobile */
+    }
+}
